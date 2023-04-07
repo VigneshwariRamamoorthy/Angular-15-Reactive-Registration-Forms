@@ -1,0 +1,46 @@
+.login {
+    margin: 50px auto;
+    padding: 20px ;
+    border: 2px solid rgb(84, 82, 82);
+    width: 300px;
+    color: #441414;
+    background-color: rgb(237, 236, 226);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    font-variant: initial;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+input[type=text],select,input[type=password]{
+    padding: 5px;
+    margin: 10px;
+    width: 80%;
+    display: inline-block;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    padding: 5px;
+    margin: 10px;
+    color: rgb(238, 21, 17);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width:  250px ;
+    text-align: center;
+}
+
+.form {
+    color: red;
+}
+
+input.ng-invalid.ng-touched {
+    border: 1px solid red;
+}
